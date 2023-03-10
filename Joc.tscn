@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Personatge.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Paret.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Detector.tscn" type="PackedScene" id=3]
+
+[node name="Joc" type="Node2D"]
+
+[node name="Detector" parent="." instance=ExtResource( 3 )]
+position = Vector2( 587, 246 )
+
+[node name="Paret" parent="." instance=ExtResource( 2 )]
+position = Vector2( 267, 250 )
+
+[node name="Paret3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 149, 255 )
+
+[node name="Paret4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 39, 257 )
+
+[node name="Paret2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 445, 345 )
+rotation = 1.5708
+
+[node name="Personatge" parent="." instance=ExtResource( 1 )]
+position = Vector2( 439, 196 )
