@@ -7,7 +7,7 @@
 [node name="Joc" type="Node2D"]
 
 [node name="Detector" parent="." instance=ExtResource( 3 )]
-position = Vector2( 587, 246 )
+position = Vector2( 627, 242 )
 
 [node name="Paret" parent="." instance=ExtResource( 2 )]
 position = Vector2( 267, 250 )
